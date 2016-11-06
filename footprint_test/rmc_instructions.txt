@@ -1,0 +1,4 @@
+testarea_low_foot = if(isnull(testarea_low), null() , 1)
+testarea_mid_foot = if(isnull(testarea_mid), null() , 1)
+testarea_top_foot = if(isnull(testarea_top), null() , 1)
+end

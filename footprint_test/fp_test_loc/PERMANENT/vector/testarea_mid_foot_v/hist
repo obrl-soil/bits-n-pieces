@@ -1,0 +1,3 @@
+COMMAND: RTOVEC~1 --overwrite input="testarea_mid_foot" output="testarea_mid_foot_v" type="area" column="value"
+GISDBASE: C:\footprint_test
+LOCATION: fp_test_loc MAPSET: PERMANENT USER: Lauren DATE: Sun Nov 06 21:11:22 2016

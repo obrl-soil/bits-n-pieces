@@ -1,0 +1,12 @@
+proj:       3
+zone:       0
+north:      20:19:47.499998S
+south:      20:20:59.499998S
+east:       148:50:59.500003E
+west:       148:47:59.500003E
+cols:       180
+rows:       72
+e-w resol:  0:00:01
+n-s resol:  0:00:01
+format:     -1
+compressed: 2

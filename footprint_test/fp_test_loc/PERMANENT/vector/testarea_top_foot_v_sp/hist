@@ -1,0 +1,15 @@
+COMMAND: RTOVEC~1 --overwrite input="testarea_top_foot" output="testarea_top_foot_v" type="area" column="value"
+GISDBASE: C:\footprint_test
+LOCATION: fp_test_loc MAPSET: PERMANENT USER: Lauren DATE: Sun Nov 06 21:11:22 2016
+---------------------------------------------------------------------------------
+COMMAND: v.reclass input="testarea_top_foot_v" layer="1" type="point,line,boundary,centroid" output="testarea_top_foot_v_sp_4684" column="value"
+GISDBASE: C:\footprint_test
+LOCATION: fp_test_loc MAPSET: PERMANENT USER: Lauren DATE: Sun Nov 06 21:11:27 2016
+---------------------------------------------------------------------------------
+COMMAND: v.extract -d input="testarea_top_foot_v_sp_4684" layer="1" type="area" output="testarea_top_foot_v_sp" new=-1
+GISDBASE: C:\footprint_test
+LOCATION: fp_test_loc MAPSET: PERMANENT USER: Lauren DATE: Sun Nov 06 21:11:27 2016
+---------------------------------------------------------------------------------
+COMMAND: v.dissolve.py "--overwrite" "input=testarea_top_foot_v" "column=value" "output=testarea_top_foot_v_sp"
+GISDBASE: C:\footprint_test
+LOCATION: fp_test_loc MAPSET: PERMANENT USER: Lauren DATE: Sun Nov 06 21:11:27 2016
